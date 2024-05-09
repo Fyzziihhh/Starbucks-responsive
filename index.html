@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StarBucks Company</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body >
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div id="container" class="container custom-container">
+      <a class="navbar-brand custom-brand me-auto" href="#">
+        <img src="Assets/logo.png" alt="" />
+      </a>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">StarBucks</h5>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 display-1 fs-6 fw-normal">
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Gift</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Pay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Store</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-right-container d-flex">
+        <a class="navbar-search-bar" href="#">
+          <div id="custom-search-bar" class="d-flex">
+            <img src="Assets/search.svg" alt="" />
+            <input type="text " placeholder="search for something specific" />
+          </div>
+        </a>
+        <div class="navbar-account-icon me-4">
+          <img src="Assets/account_thin (1).png" alt="" />
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="rewards-box" style="
+        margin-top: 95px;
+        height: 80px;
+        padding: 0 6vw;
+        background-color: #1e3932;
+      " class="rewards-box container-fluid fs-5 align-items-center text-white w-100 d-flex justify-content-between">
+    <p>Rewards are puring.Sign up now!</p>
+    <div class="btn border-white text-white rounded-5 fw-semibold px-3">
+      Know More
+    </div>
+  </div>
+  <div class="pt-4 container-fluid mt-4 food-container">
+
+    <div class="h2 fw-bold container">Barista Recommends</div>
+
+    <div class="container cards-container">
+      <div class="row d-flex row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-3 mb-md-0">
+          <div style="width: 100%;" class="card bg-white">
+
+
+            <div class="food-details d-flex">
+              <div class="food-img">
+                <img src="Assets/114800.webp" alt="">
+              </div>
+              <div class="food-name-kcal d-flex flex-column mt-4">
+                <img src="Assets/nonveg3.svg" alt="">
+                <div class="h6">Bhuna Chicken Puffs</div>
+                <p class="text-muted food-kcal">PER SERVE (85g) -390 Kcal </p>
+              </div>
+            </div>
+            <div class="food-price-additem d-flex justify-content-between px-5 align-items-center">
+              <p>$199</p>
+              <div class="btn rounded bg-success text-white custom-btn">Add Item</div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 mb-md-0">
+          <div style="width: 100%;" class="card bg-white">
+
+
+            <div class="food-details d-flex">
+              <div class="food-img">
+                <img src="Assets/114800.webp" alt="">
+              </div>
+              <div class="food-name-kcal d-flex flex-column mt-4">
+                <img src="Assets/nonveg3.svg" alt="">
+                <div class="h6">Bhuna Chicken Puffs</div>
+                <p class="text-muted food-kcal">PER SERVE (85g) -390 Kcal </p>
+              </div>
+            </div>
+            <div class="food-price-additem d-flex justify-content-between px-5 align-items-center">
+              <p>$199</p>
+              <div class="btn rounded bg-success text-white custom-btn">Add Item</div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3 mb-md-0">
+          <div style="width: 100%;" class="card bg-white">
+
+
+            <div class="food-details h-50 d-flex">
+              <div class="food-img">
+                <img src="Assets/114800.webp" alt="">
+              </div>
+              <div class="food-name-kcal d-flex flex-column mt-4">
+                <img src="Assets/nonveg3.svg" alt="">
+                <div class="h6">Bhuna Chicken Puffs</div>
+                <p class="text-muted food-kcal">PER SERVE (85g) -390 Kcal </p>
+              </div>
+            </div>
+            <div class="food-price-additem d-flex justify-content-between px-5 align-items-center">
+              <p>$199</p>
+              <div class="btn rounded bg-success text-white custom-btn">Add Item</div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-lg-none mb-3 mb-md-0">
+          <div style="width: 100%;" class="card bg-white">
+            <!-- Card content -->
+            <div class="food-details d-flex">
+              <div class="food-img">
+                <img src="Assets/114800.webp" alt="">
+              </div>
+              <div class="food-name-kcal d-flex flex-column mt-4">
+                <img src="Assets/nonveg3.svg" alt="">
+                <div class="h6">Bhuna Chicken Puffs</div>
+                <p class="text-muted food-kcal">PER SERVE (85g) -390 Kcal </p>
+              </div>
+            </div>
+            <div class="food-price-additem d-flex justify-content-between px-5 align-items-center">
+              <p>$199</p>
+              <div class="btn rounded bg-success text-white custom-btn">Add Item</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="beverage-container container-lg mt-5 rounded-3">
+    <div class="d-flex flex-column flex-md-row text-white align-items-center justify-content-between">
+      <div class="mb-5">
+        <img class="mt-5" src="Assets/285_x_595_App_removebg_preview_2_c4bc942184 (1).png" alt="">
+      </div>
+      <div class="align-items-center beverage-text">
+        <p class="h5">Starbucks</p>
+        <p class="h2">Beverage Subscription</p>
+        <p class="h5 ">Starbucks Subscription is Back! Your Favorites for less.Tap for details.T&C Apply</p>
+        
+        <p class="fw-semibold ">Starting From  <br> Rs.789</p>
+      </div>
+      <div class="col-lg-2">
+        <div class="btn align-items-end border bg-white px-5 py-3 fs-6 rounded-5">Know More</div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+   <p class="h3 fw-bold text-secondary mt-4">HandCrafted Curation</p>
+   <div class="row  hand-craft-img mt-4">
+    <div class="col-xl-2 col-md-4 col-6  d-flex flex-column justify-content-center align-items-center "><img src="Assets/Bestseller.webp">
+    <p class="h6 ">bestSeller</p></div>
+    <div class="col-xl-2 col-md-4 col-6  d-flex flex-column justify-content-center align-items-center "><img src="Assets/CoffeeAtHome.webp ">
+    <p class="h6 ">Coffee at Home</p></div>
+    <div class="col-xl-2 col-md-4 col-6  d-flex flex-column justify-content-center align-items-center "><img src="Assets/Merchandise.webp">
+    <p class="h6 ">Merchandise</p></div>
+    <div class="col-xl-2 col-md-4 col-6  d-flex flex-column justify-content-center align-items-center "><img src="Assets/Drinks.webp">
+    <p class="h6 ">Drinks</p></div>
+    <div class="col-xl-2 col-md-4 col-6   d-flex flex-column justify-content-center align-items-center "><img src="Assets/Food.webp">
+    <p class="h6 ">Food</p></div>
+    <div class="col-xl-2 col-md-4 col-6  d-flex flex-column justify-content-center align-items-center "><img src="Assets/ReadyToEat.webp">
+    <p class="h6 ">Ready to Eat</p></div>
+   
+   </div>
+  </div>
+  <div class="container">
+    <p class="h3 fw-bold text-secondary mt-4">Latest Offerings</p>
+   
+    <div class="row mb-5  ">
+        <div class="col-lg-4 col-sm-12">
+            <div class="card  rounded-2 w-100">
+                <img src="./Assets/113849.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <div class="vegitem">
+                        <img src="./Assets/veg (1).svg" alt="">
+                    </div>
+                    <div class="h5">Belgium Chocolate Frappucino</div>
+                    <p style="font-size: 11px; letter-spacing: -.8px;opacity: .8;" class="text-muted fw-bold">TALL(354 ML) 470 Kcal</p>
+                    <p class="opacity-75" style="letter-spacing: -.5px;font-size: small;">Blend of decadent Belgian chocolate sauce and coffee with a whipped chocolate topping. The beverage is finishe</p>
+                    <div class="amount-add-item justify-content-between d-flex align-items-center">
+                        <p class="h4 fs-6">₹ 509</p>
+                        <div class="btn btn-success fw-bold text-white rounded-4">Add Item</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="card rounded-2 w-100">
+                <img src="./Assets/113842.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <div class="vegitem">
+                        <img src="./Assets/veg (1).svg" alt="">
+                    </div>
+                    <div class="h5">Belgium Chocolate Frappucino</div>
+                    <p style="font-size: 11px; letter-spacing: -.8px;opacity: .8;" class="text-muted fw-bold">TALL(354 ML) 470 Kcal</p>
+                    <p class="opacity-75" style="letter-spacing: -.5px;font-size: small;">Blend of decadent Belgian chocolate sauce and coffee with a whipped chocolate topping. The beverage is finishe</p>
+                    <div class="amount-add-item justify-content-between d-flex align-items-center">
+                        <p class="h4 fs-6">₹ 509</p>
+                        <div class="btn btn-success fw-bold text-white rounded-4">Add Item</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="card  rounded-2 w-100">
+                <img src="./Assets/113846.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <div class="vegitem">
+                        <img src="./Assets/veg (1).svg" alt="">
+                    </div>
+                    <div class="h5">Belgium Chocolate Frappucino</div>
+                    <p style="font-size: 11px; letter-spacing: -.8px;opacity: .8;" class="text-muted fw-bold">TALL(354 ML) 470 Kcal</p>
+                    <p class="opacity-75" style="letter-spacing: -.5px;font-size: small;">Blend of decadent Belgian chocolate sauce and coffee with a whipped chocolate topping. The beverage is finishe</p>
+                    <div class="amount-add-item justify-content-between d-flex align-items-center">
+                        <p class="h4 fs-6">₹ 509</p>
+                        <div class="btn btn-success fw-bold text-white rounded-4">Add Item</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid  w-100 espresso-maker-bg">
+  <div class="container d-flex justify-content-between ">
+    <p class="h3 fw-bold text-black opacity-75 ">Learn more about the world of coffee!</p>
+<p class="h6 opacity-75 ">Discover More</p>
+  </div>
+  <div class="container text-white bg-dark rounded-1  espresso-bg rounded-3 my-4 align-content-end p-5 ">
+    <p class="h3 fw-bold  ">
+      Art & Science Of Coffee Brewing
+     </p>
+      <p class=""> Master the perfect brew with Starbucks! Learn the art and science of coffee brewing.</p>
+      <div class="btn bg-white fw-medium  px-5 py-1 rounded-5 mt-4 ">Learn More</div>
+
+
+  </div>
+</div>
+<div class="footer  text-white  ">
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-2 col-12 mb-3 text-center ">
+        <img src="./Assets/logo.png" alt="">
+      </div>
+      <div class=" col-lg-2  col-sm-12 ">
+        <ul>
+          <h4>About Us</h4>
+          <li><a href="#">our Heritage</a></li>
+          <li><a href="#">Coffeehouse</a></li>
+          <li><a href="#">Our Company</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-lg-2">
+        <ul>
+          <h4 class="me-3">Responsibilities</h4>
+          <li><a href="#">Learn More</a></li>
+          <li><a href="#">Diversity</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Ethical Sourcing</a></li>
+          <li><a href="#">Enivornmental Stewardship</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-lg-2">
+        <ul>
+          <h4>Quick Links</h4>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Starbucks india mobile App Terms of Use</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">starbucks Rewards Day Offer</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Season's Gifting</a></li>
+          <li><a href="#">Offer For beverage Subscription at Starbucks.</a></li>
+          <li><a href="#">Beverage Subscription</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-4 col-lg-2 ">
+        <h4 class="ms-4 ">SOCIAL MEDIA</h4>
+        <ul class="d-flex ">
+          <li><a href="#"><img src="./Assets/instagram.svg" alt=""></a></li>
+          <li><a href="#"><img src="./Assets/facebook.svg" alt=""></a></li>
+          <li><a href="#"><img src="./Assets/twitter.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-4 col-lg-2 ">
+        
+        <ul class="flex-column  ">
+          <li><a href="#"><img src="./Assets/appstoreiOS.png" alt=""></a></li>
+          <li><a href="#"><img src="./Assets/appstoreAndroid.png" alt=""></a></li>
+       
+        </ul>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

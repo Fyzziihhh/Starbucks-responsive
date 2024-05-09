@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbar{
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(203, 203, 203);
+    /* height: 90px; */
+    
+}
+
+#custom-search-bar{
+    width:90%;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 2.5rem;
+    margin-right: 8em;
+    box-shadow: 0px 1px 3px 1px rgb(168, 167, 167);
+
+}
+#custom-search-bar> img{
+    margin-left:  .5rem;
+    width: 20px;
+    
+}
+#custom-search-bar input{
+ border: none;
+ outline: none;
+ width: 100%;
+ border-radius: 2rem;
+ height: 100%;
+ 
+
+     
+}
+
+
+ 
+
+#custom-search-bar input::placeholder{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+.navbar-account-icon img{
+    width: 30px;
+    height: 30px;
+
+}
+.cards-container{
+    width:100%;
+    height: 160px;
+    /* box-shadow: 0 0 1px 2px black; */
+}
+.food-img img{
+    width: 75px;
+    height: 78px;
+    border-radius: 10px;
+    margin:25px ;
+}
+.food-kcal {
+    letter-spacing: -1.1px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.food-name-kcal img{
+
+    height: 14px;
+    width: 14px;
+}
+.food-price-additem{
+    /* padding-bottom: 100px; */
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: pink ; */
+}
+
+
+.food-container {
+    height: 300px; 
+/* z-index: 999; */
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    width: 100%;  
+    background-color: #edebe9;
+   
+   
+}
+.beverage-container{
+    width: 100%;
+    height: 280px;
+    background-color:#09907F;
+    font-size: 13px; 
+    /* margin-top: 200px; */
+}
+.beverage-container img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   /* margin-top: 50px; */
+   
+}
+.card {
+width:380px;
+
+   
+}
+.card > img{
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+}
+
+.hand-craft-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.espresso-bg{
+    height:400px;
+    width: 100%;
+    background-image: url(./Assets/ICW_Live_Event_Day5_41f11ca3d2\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.espresso-maker-bg{
+    height: 550px;
+    padding-top: 30px;
+    background-color: #edebe9;
+
+}
+ li a{ 
+
+    color:#fff;
+    font-size: 14px;
+    font-weight:400;
+    
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-top: 4px;
+}
+.footer{
+    background-color: #0E382C;
+}
+
+
+@media  screen and (max-width:993px) {
+    .beverage-container{
+        height: 490px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .beverage-text{
+
+/* margin-left: 50px; */
+text-align: center;
+    }
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:391px){
+#rewards-box{
+        margin-top: 150px !important;
+    }
+    .custom-brand{
+        margin-left: auto;   
+        margin-bottom: 10px;   
+    }
+    .food-container {
+        height: 600px; 
+    /* z-index: 999; */
+        /* overflow-y: scroll; */
+        /* overflow-x: hidden; */
+        width: 100%;  
+        background-color: #edebe9;
+    }
+    
+    
+}
+
+@media screen and (max-width:450px) {
+    .navbar-account-icon {
+        display: none;
+    }
+    #custom-search-bar{
+        width: 70%;
+    }
+    .food-container {
+        height: 700px; 
+        width: 100%;  
+        background-color: #edebe9;
+       
+       
+    }
+    
+  
+}
